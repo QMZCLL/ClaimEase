@@ -1,0 +1,21 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+
+# python / build artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# run outputs, never published
+*.log
+wandb/
+outputs/
+checkpoints/
+*.ckpt
+*.pt
+
+# OS / editor
+.DS_Store
+.idea/
